@@ -1,0 +1,42 @@
+# Core AI Framework
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-groq>=0.3.0
+langgraph>=0.2.0
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# Data Validation
+pydantic>=2.10.0
+
+# Vector Database
+chromadb>=1.0.0
+
+# Embeddings
+sentence-transformers>=3.4.0
+
+# Streamlit UI
+streamlit>=1.45.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=2.2.0
+
+# Analytics Dashboard
+plotly>=6.0.0
+
+# PDF Processing
+pymupdf>=1.25.0
+pdfplumber>=0.11.0
+
+# OCR
+easyocr>=1.7.2
+pillow>=11.0.0
+
+# Utilities
+tqdm>=4.67.0
+
+# Optional API Layer (for future FastAPI migration)
+fastapi>=0.115.0
+uvicorn>=0.34.0
