@@ -34,12 +34,12 @@ class CustomerClaimInput(BaseModel):
 
 
     #Uploaded Documents
-    uploaded_document: List[UploadedDocument]= Field(default_factory=list)
+    uploaded_documents: List[UploadedDocument]= Field(default_factory=list)
 
     #ChatMeassage Support
-    chat_meassage: List[ChatMessage]= Field(default_factory=list)
-    missing_field: List[str]= Field(default_factory=list)
-    is_ready_to_process: bool = False
+    chat_meassages: List[ChatMessage]= Field(default_factory=list)
+    missing_fields: List[str]= Field(default_factory=list)
+    is_ready_to_processing: bool = False
 
 
     # Health-specific fields
